@@ -574,7 +574,8 @@ blockquote {
   }
 
   .tabs_content.active {
-    height: 100%;
+    height: calc(100vh - (2*96px));
+    overflow-y: auto;
   }
 
   .tab_contain {
